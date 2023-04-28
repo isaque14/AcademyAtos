@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+a.button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.button:hover {
+    background-color: #444;
+}
+
+#area-cabecalho {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#area-logo h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+#area-menu {
+    display: flex;
+}
+
+#area-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+#area-menu a:hover, #area-menu a.active {
+    border-bottom: 2px solid #fff;
+}
+
+#area-principal {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ebe9e8;
+}
+
+#area-do-site h2 {
+    font-size: 28px;
+    margin-top: 0;
+    color: #333;
+    }
+    
+    #area-do-site p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    }
+
+#rodape {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    clear: both;
+    text-align: center;
+}
+
+#area-postagens{
+    float: center;    
+    text-align: center;
+    background-color: #ebe9e8;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  td:first-child {
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  td:nth-child(even) {
+    text-align: center;
+  }
+
+  .redes-sociais {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .redes-sociais a:hover {
+    background-color: #444;
+  }
+  
+  .redes-sociais i {
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  
+
